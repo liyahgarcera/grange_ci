@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document 
+ *	for main multilevel dropdown menu
+ */
+
+/* removes bullet and indents */
+#topnav, #topnav ul{
+     margin:0;
+     padding:0;
+     list-style-type:none;
+     list-style-position:outside;
+     position:relative;
+     line-height:1.5em;
+}
+
+/* add some basic mouse action/movement designs.
+ * this includes background color & highlight
+ */ 
+#topnav a:link, #topnav a:active, #topnav a:visited{
+    display:block;
+		width: 154px;
+    border:1px solid #000;
+    color:#fff;
+    text-decoration:none;
+    background-color:#000;
+ }
+
+#topnav a:hover{
+    background-color:#fff;
+    color:#333;
+}
+/* arrange links such that
+ * each submenu is under its parent menu
+ */
+#topnav li{
+    float:left;
+    position:relative;
+}
+
+/* This will position the nested Lists right beyond
+ * the main menu and give them a width of 12em. The
+ * width attribute is needed so that the list items
+ * within display vertically again. The Top attribute 
+ * should have the same value as the line-height
+ * attribute we defined for #topnav.
+ */
+#topnav ul {
+    position:absolute;
+    width:154px;
+    top:1.5em;
+    display:none;
+}
+
+
+/* This will set the width of the hyper links to 12 em
+ *(which in combination with the width of the UL set above
+ * results in a horizontally displayed sub menu, despite
+ * of the ongoing float:left)
+ */
+#topnav li ul a{
+    width: 154px;
+    float:left;
+}
+
+/* #nav ul ul and #nav li ul ul define where we display the sub menus.
+ * The hover states define which items we want to show when hovering
+ * over an item (only the next sub level, not all of them)
+ */
+#topnav ul ul{
+	top:auto;
+}
+
+#topnav li ul ul {
+  left:156px;
+}
+
+#topnav li:hover ul ul, #topnav li:hover ul ul ul,
+#topnav li:hover ul ul ul ul{
+  display:none;
+}
+#topnav li:hover ul, #topnav li li:hover ul,
+#topnav li li li:hover ul, #topnav li li li li:hover ul{
+  display:block;
+}
