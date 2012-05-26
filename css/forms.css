@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#login_form
+{
+	border: 1px solid #000;
+	position: relative;
+	/*top: 409px;
+	margin-left: 656px;
+	width: 282px;
+	height: 70px;*/
+}

@@ -5,12 +5,13 @@
 
 /* removes bullet and indents */
 #topnav, #topnav ul{
-     margin:0;
-     padding:0;
-     list-style-type:none;
-     list-style-position:outside;
-     position:relative;
-     line-height:1.5em;
+	z-index: 9;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  list-style-position:outside;
+  position:relative;
+  line-height:1.5em;
 }
 
 /* add some basic mouse action/movement designs.

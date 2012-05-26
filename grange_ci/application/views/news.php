@@ -1,6 +1,6 @@
 <div class="main_content">
 <?php
-	echo br().br()."NEWS".br().'[public]'.br().br();
+	echo "NEWS".br().'[public]'.br().br();
 	echo 'list. "read more" effect.'.br();
 	echo 'kung ano meron sa grange currently. [plans, accomplishments, etc].';
 ?>

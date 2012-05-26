@@ -1,5 +1,5 @@
 <div class="main_content">
 <?php
-	echo br().br().'HOME';
+	echo 'HOME';
 ?>
 </div><!-- end .main_content -->

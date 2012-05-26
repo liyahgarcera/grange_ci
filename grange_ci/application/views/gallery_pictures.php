@@ -1,6 +1,6 @@
 <div class="main_content">
 <?php
-	echo br().br()."PICTURES".br().br();
+	echo "PICTURES".br().br();
 	echo "naka-folder. kayo na bahala magpaganda.".br();
 	echo "basta bagay sa main design ng website.".br();
 	echo "ano mas maganda, sa server natin ia-upload yung pics".br();

@@ -14,6 +14,8 @@
 	<link href="/css/default.css" rel="stylesheet" type="text/css" />
   <link href="/css/grange_template.css" rel="stylesheet" type="text/css" />
 	<link href="/css/navigator.css" rel="stylesheet" type="text/css" />
+	<link href="/css/forms.css" rel="stylesheet" type="text/css" />
+	<link href="/css/ad_slider.css" rel="stylesheet" type="text/css" />
 
 </head>
 

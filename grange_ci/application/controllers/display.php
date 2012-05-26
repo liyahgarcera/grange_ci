@@ -16,6 +16,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('home', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -30,6 +32,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('history', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -44,6 +48,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('stories', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -58,6 +64,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('scholarship', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -73,6 +81,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('labulabo', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -88,6 +98,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('civic_activities', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -103,6 +115,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('academy', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -118,6 +132,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('formation_cause', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -132,6 +148,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('gallery_pictures', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -146,6 +164,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('gallery_videos', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -160,6 +180,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('news', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -174,6 +196,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('public_activities', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -188,6 +212,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('announcements', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -202,6 +228,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('our_activities', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -216,6 +244,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('residents', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -230,6 +260,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('jr_alumni', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -244,6 +276,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('sr_alumni', $data);
 		$this->load->view('templates/footer', $data);
 	}
@@ -257,6 +291,8 @@ class Display extends CI_Controller {
 		$this->load->view('templates/header', $data);
 		$this->load->view('templates/navigator', $data);
 		$this->load->view('templates/bread_crumbs', $data);
+		$this->load->view('templates/login_form', $data);
+		$this->load->view('templates/advertisement', $data);
 		$this->load->view('contact_us', $data);
 		$this->load->view('templates/footer', $data);
 	}
